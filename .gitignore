@@ -1,0 +1,4 @@
+fastAPI/__pycache__/*
+fastAPI/bin/
+fastAPI/include/
+fastAPI/lib/
