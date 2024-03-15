@@ -1,33 +1,3 @@
-# from fastapi import FastAPI
-
-# app = FastAPI()
-# print(app, type(app))
-
-# @app.get("/")
-# async def root():
-#     return {"message": "Hello World"}
-
-# @app.get('/fib')
-# async def fibo():
-#     fib_series = [0, 1]
-#     for i in range(2, 10):
-#         next_term = fib_series[-1] + fib_series[-2]
-#         fib_series.append(next_term)
-#     newJson= dict()
-#     for key, value in enumerate(fib_series,0):
-#         newJson[key]= value
-#     return newJson
-# @app.get('/fib/{n}')
-# async def fibos(n):
-#     fib_series = [0, 1]
-#     for i in range(2, n):
-#         next_term = fib_series[-1] + fib_series[-2]
-#         fib_series.append(next_term)
-#     newJson= dict()
-#     for key, value in enumerate(fib_series,0):
-#         newJson[key]= value
-#     return newJson
-
 from fastapi import FastAPI
 
 app = FastAPI()
